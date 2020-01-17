@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+header h1{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.sucsses{
+    background-color: greenyellow;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+.failed{
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+#form div{
+    margin: 10px 0;
+}
+
+#form label{
+    font-size: 1.5rem;
+    /* border: 1px solid black; */
+}
+
+#form input{
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(146, 143, 143);
+    outline: none;
+    
+}
+
+#form input[type = "submit"]{
+    cursor: pointer;
+    border-radius: 3rem;
+    border: 1px solid rgb(146, 143, 143);
+}
+
+#form input:hover{
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    margin-top: 2rem;
+}
